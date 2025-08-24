@@ -6,7 +6,30 @@
     <head>
         <title>Exta medicals</title>
     </head>
-        <marquee behaviour="alternate"><h1>🌟 Exta Medicals Pharmacy & Dental Care 🌟</h1></marquee>
+        <marquee><h1>🌟 Exta Medicals harmacy & Dental Care 🌟</h1></marquee>
+		<style>
+    .marquee {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      box-sizing: border-box;
+    }
+
+    .marquee span {
+      display: inline-block;
+      padding-left: 100%;
+      font-size: 24px;
+      animation: wobble 8s linear infinite;
+    }
+
+    @keyframes wobble {
+      0%   { transform: translateX(100%) rotate(0deg); }
+      25%  { transform: translateX(50%) rotate(5deg); }
+      50%  { transform: translateX(0%) rotate(-5deg); }
+      75%  { transform: translateX(-50%) rotate(5deg); }
+      100% { transform: translateX(-100%) rotate(0deg); }
+    }
+  </style>
 
        <p>Assalaam Alaikum To all viewers</p>
       <p>Welcome to Exta Medicals your friendly neighborhood pharmacy! 🏥💊 </p>
@@ -70,6 +93,7 @@ experience care, comfort, and a bright smile! 😄🌈</p>
 
 </body>
 </html>
+
 
 
 
